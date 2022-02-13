@@ -1,0 +1,29 @@
+name: 'Vorschlag für ein Feature'
+description: 'Einen Vorschlag zu einem Feature einreichen'
+labels: ['enhancement']
+body:
+- type: 'markdown'
+  attributes:
+    value: |-
+      Vielen Dank, dass Sie einen Vorschlag für ein Feature einreichen möchten. Bitte füllen Sie das untenstehende Formular aus, damit wir Ihr Anliegen einordnen und priorisieren können.
+
+- id: 'tldr'
+  type: 'textarea'
+  attributes:
+    label: 'TL;DR'
+    description: 'Beschreiben Sie das Feature in ein bis zwei Sätzen.'
+  validations:
+    required: true
+
+- id: 'detailed_design'
+  type: 'textarea'
+  attributes:
+    label: 'Detaillierter Entwurf'
+    description: 'Haben Sie nähere Informationen über einen detaillierten Entwurf? Gibt es besondere Überlegungen, die zu berücksichtigen sind?'
+    render: 'markdown'
+
+- id: 'additional'
+  type: 'textarea'
+  attributes:
+    label: 'Zusätzliche Informationen'
+    description: 'Gibt es noch etwas, das wir Ihrer Meinung nach wissen sollten?'
