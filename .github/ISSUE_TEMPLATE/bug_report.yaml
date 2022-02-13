@@ -1,0 +1,41 @@
+name: 'Fehlerbericht'
+description: 'Einen Fehlerbericht ausfüllen.'
+labels: ['bug']
+body:
+- type: 'markdown'
+  attributes:
+    value: |-
+      Vielen Dank, dass Sie einen Fehler melden möchten. Bitte füllen Sie das folgende Formular aus, damit wir Ihr Problem einordnen, reproduzieren und beheben können.
+
+- id: 'tldr'
+  type: 'textarea'
+  attributes:
+    label: 'TL;DR'
+    description: 'Beschreiben Sie den Fehler in ein bis zwei Sätzen.'
+  validations:
+    required: true
+
+- id: 'expected_behavior'
+  type: 'textarea'
+  attributes:
+    label: 'Erwartetes Verhalten'
+    description: 'Was haben Sie erwartet?'
+
+- id: 'observed_behavior'
+  type: 'textarea'
+  attributes:
+    label: 'Beobachtetes Verhalten'
+    description: 'Was ist stattdessen geschehen?'
+    
+- id: 'log_output'
+  type: 'textarea'
+  attributes:
+    label: 'Log'
+    description: 'Fügen Sie hier bitte die vollständige Logdatei ein und nicht nur den Abschnitt, den Sie für relevant halten. Prüfen Sie jedoch vor der Übermittlung, dass keine sensiblen Informationen wie etwa Zugangsdaten enthalten sind.'
+    render: 'text'
+
+- id: 'additional'
+  type: 'textarea'
+  attributes:
+    label: 'Zusätzliche Informationen'
+    description: 'Gibt es noch etwas, das wir Ihrer Meinung nach wissen sollten?'
