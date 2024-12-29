@@ -10,5 +10,5 @@ Den Quellcode wurde im GitHub Repository [`adjuvant`](https://github.com/projekt
 
 ## Presse
 
-- **Pressemitteilung**: [Hier klicken](https://files.stefan.zone/software-engineering/documents/press_release.pdf)
-- **Projektpräsentation**: [Hier klicken](https://files.stefan.zone/software-engineering/documents/product_presentation.pdf)
+- **Pressemitteilung**: [Hier klicken](https://github.com/projekt-adjuvant/docs/blob/main/press_release.pdf)
+- **Projektpräsentation**: [Hier klicken](https://github.com/projekt-adjuvant/docs/blob/main/product_presentation.pdf)
